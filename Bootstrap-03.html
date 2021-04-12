@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- bootstrap-4 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- jumbotron cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+<style>
+    .Feedback{background:#0d0442;
+        padding:7% 10%;
+    }
+    .hr-style{
+        border: 5px dotted white;
+        border-bottom: none;
+        border-color:white;
+    }
+    .carousel-item{
+        padding: 5% 15%;
+        text-align: center;
+        font-style: italic;
+    }
+    .carousel-indicators{
+       bottom:  -20px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- <header class="bg-primary text-white text-center py-3 ">
+            <H1>Wellcome to bootstrap</H1>
+            <h3>Emran Hasan Rifat</h3>
+             </header> -->
+             <header class="bg-primary">
+                 <div class="row">
+                     <div class="col-lg-5">
+                         <h1 class="text-white text-center py-3 ">Wellcome To Bootstrap</h1>
+                         <p class="text-white text-center mb-3 font-weight-bolder ">Emran Hasan Rifat</p>
+                     </div>
+                     <div class="col-lg-7">
+                         <ul class="nav justify-content-center py-4 ">
+                            <li class="nav-item"><a class=" text-white nav-link" href="https://sites.google.com/diu.edu.bd/mdemranhasanrifat/home">Home</a></li> 
+                            <li class="nav-item" ><a class="text-white nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="text-white nav-link" href="#">Contrac me</a></li>
+
+                         </ul>
+                     </div>
+                 </div>
+             </header>
+             <!-- Toggeleable dynamic tab -->
+            <div class="tab-section">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#src">Services</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#emr">Contrac me</a></li>
+                </ul>
+                <div class="tab-content">
+                 <div id="home" class="tab-pane fade"><p>1.My Home by ShowingTime is a free app for agents using ShowingTime to share with clients to help them more easily navigate the buying and selling process</p></div>
+                <div id="src" class="tab-pane fade"><p>2.A service is a transaction in which no physical goods are transferred from the seller to the buyer. The benefits of such a service are held to be demonstrated by the buyer's willingness to make the exchange. </p></div>
+                <div id="emr" class="tab-pane fade"><p>3.Emran Hasan Rifat </p></div>
+                </div>
+           
+            </div>
+            <!-- Carousel_section -->
+            <div class="container">
+                <section class="Feedback">
+                    <h3 class="text-center text-white">Feedback</h3>
+                    <hr class="hr-style"> 
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+                                <ol class="carousel-indicators">
+                                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                   <p class="text-white">“Hello, I am Emran Hasan Rifat. I like to receive and deal with challenging tasks. 
+                                    I am a very enthusiastic student and I think this is a strong point of mine.. My height is 5’9” And weight is 75kg. I like to programming, traveling, riding and playing Cricket. My family is a big part of who I am”.
+                                    </p>
+                                    <img class="Feedback-img rounded-circle mb-3"src="https://media-exp1.licdn.com/dms/image/C5603AQGT8H7JcjXKxg/profile-displayphoto-shrink_200_200/0?e=1612396800&v=beta&t=1sUmt9XehZz3td1zU9hggUZS_h9l-gA7VslBIwr5L3I" alt="">
+                                     <h6 class="text-white">Md. Emran Hasan Rifat</h6>
+                                </div>
+    
+                                  <div class="carousel-item">
+                                    <p class="text-white">“Hello, I am Emran Hasan Rifat. I like to receive and deal with challenging tasks. 
+                                        I am a very enthusiastic student and I think this is a strong point of mine.. My height is 5’9” And weight is 75kg. I like to programming, traveling, riding and playing Cricket. My family is a big part of who I am”.
+                                        </p>
+                                        <img class="Feedback-img mb-3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt2ta_92pHo-CULaB2olsqEVtlTxWulFqLaw&usqp=CAU" alt="">
+                                         <h6 class="text-white">Daffodil International University</h6>
+                                    
+                                  </div>
+                                  <div class="carousel-item">
+                                    <p class="text-white">“Hello, I am Emran Hasan Rifat. I like to receive and deal with challenging tasks. 
+                                        I am a very enthusiastic student and I think this is a strong point of mine.. My height is 5’9” And weight is 75kg. I like to programming, traveling, riding and playing Cricket. My family is a big part of who I am”.
+                                        </p>
+                                        <img class="Feedback-img mb-3"src="data:image/jpeg;base64,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" alt="">
+                                         <h6 class="text-white">Daffodil International University</h6>
+
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+    
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                </section>
+               
+                </div>
+
+            </div>
+            
+        <main>
+            <div class="service-section bg-light mt-3 ">
+                <!-- <div class="title text-center mb-3 "> -->
+                    <h4 class="text-center mb-3 font-weight-bolder">---My services---</h4>
+                
+                <div class="row text-left text-md-center">
+                    <div class="col-lg-3">
+                        <i class="bg-primary fa-2x p-2 text-white rounded-circle mb-3 fas fa-hands-helping"></i>
+                        <h5 class="text-uppercase font-weight-bolder">Web desiging</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-primary fa-2x p-2 text-white rounded-circle mb-3 fas fa-hands-helping"></i>
+    
+                        <h5 class="text-uppercase">Web desiging</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-primary fa-2x p-2 text-white rounded-circle mb-3 fas fa-hands-helping"></i>
+    
+                        <h5 class="text-uppercase">Web desiging</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-primary fa-2x p-2 text-white rounded-circle mb-3 fas fa-hands-helping"></i>
+    
+                        <h5 class="text-uppercase">Web desiging</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About me section -->
+            <div class="about-section">
+            <div class="jumbotron pt-2">
+                <h3 class="font-weight-bolder mb-3 text-center">About Me</h3>  
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <!-- image part -->
+                        <img class="baby-img rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyXZXlPl2Ir32qT4dc_eYEaPzLEBafRwX5Q&usqp=CAU" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                         <p>Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different. Here it goes.</p>
+            
+                        <!-- collapse section -->
+                         <a class="mb-3" href="#demo " data-toggle="collapse"> Learn more...</a>
+                         <div id="demo" class="collapse">
+                             <p>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+                         </div> 
+                        
+                         <!-- button section -->
+                         <button class="btn-block btn-outline-primary  mb-3 btn-lg "> Download Here</button>
+                         <div class="btn-group">
+                            <button class="btn btn-primary  mb-3 btn-lg "> Button-1</button>
+                            <button class="btn btn-success  mb-3 btn-lg"> Button-2</button>
+                            <button class="btn btn-warning  mb-3 btn-lg"> Button-3</button>
+
+                         </div>
+                         
+                         
+                         <div class="alert alert-success alert-dismissible">
+                       <button class="close" data-dismiss="alert">&times;</button> Please visite my facebook page ... <a href="https://www.facebook.com/"> Link Here</a>
+                    </div>
+                    <div class="alert alert-primary alert-dismissible">
+                        <button class="close" data-dismiss="alert">&times;</button> Please visite my facebook page ... <a href="https://www.facebook.com/"> Link Here</a>
+                     </div>
+                    </div>
+                        
+                    </div>
+                    <ul class="pagination bg-dark py-2 justify-content-center">
+                         <li class="page-item"><a class="page-link href="#">1</a></li>
+                         <li class="page-item"><a class="page-link href="#">2</a></li>
+                         <li class="page-item"><a class="page-link href="#">3</a></li>
+                         <li class="page-item"><a class="page-link href="#">Next</a></li>
+
+                    </ul>
+                </div>    
+            </div>
+            <!-- Table section here -->
+            <div class="Education-section">
+                <h3 class="font-weight-bolder text-center my-5">EDUCATIONAL-DATA</h3>
+                <table class="table table-bordered table-hover table-light text-center ">
+                    <thead>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>institution</th>
+                            <th>grade</th>
+                            <th>passing- year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SSC</td>
+                            <td>Fulbaria Pilot High School</td>
+                            <td>GPA-5</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>HSC</td>
+                            <td>Fulbaria University Collage</td>
+                            <td>GPA-5</td>
+                            <td>2016</td>
+                        </tr>
+                        <tr>
+                            <td>BSC</td>
+                            <td>Daffodil International University</td>
+                            <td>GPA-3.5</td>
+                            <td>2021</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+            <!-- card-section -->
+            <div class="card-section border">
+                <h3 class="font-weight-bolder">Tutorial</h3>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="https://www.bing.com/th?id=OIP.oPml8GliRFDXqU1VAD7T6gHaDr&w=183&h=100&c=8&rs=1&qlt=90&pid=3.1&rm=2" alt="card-image">
+                            <div class="card-body">
+                                <h4 class="title">Header</h4>
+                                <p class="card-text">CARD.com offers prepaid cards featuring brands like Care Bears, Sesame Street, Star Trek, & The NFL Players Association. Pay with personality by expressing ...</p>
+                                <a class="card-link stretcheed-link " target="blank" href="https://www.google.com/search?q=education+image&rlz=1C1GIGM_enBD931BD931&oq=education+image&aqs=chrome..69i57.7287j0j7&sourceid=chrome&ie=UTF-8">Visite Here</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class=" list-group-item ">
+                <ul>
+                    <li> Emran Hasan rifat </li>
+                    <li> Kamran Hasan Rajon</li>
+                    <li> Kamrun Nahar Rotna </li>
+                </ul>
+            </div>
+            
+
+
+           </div>
+          
+        </main>
+    </div>
+
+  
+    
+
+
+
+   
+    
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
